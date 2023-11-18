@@ -12,7 +12,6 @@
 
 - Crear un archivo en la raiz del proyecto llamado .htaccess con el siguiente contenido :
 
-<!--
 <Files ~ "^\.(htaccess|htpasswd|ini)$">
 deny from all
 </Files>
@@ -34,7 +33,6 @@ RewriteBase /web_service
 Options -Indexes
 DirectoryIndex index.php index.html
 order deny,allow
--->
 
 - Crear una carpeta en la ruta del servidor ejemplo C:\xampp\htdocs con el nombre config_access
 - Dentro de la carpeta config_access crear un archivo llamado database.php con el siguiente contenido:
