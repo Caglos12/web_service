@@ -59,6 +59,5 @@ defined('BLOG_SERVICE_PASS') OR define('BLOG_SERVICE_PASS', '');
 
 - Ampliar el tiempo de espera del servidor Apache en el archivo php.ini
 - En caso de tener XAMPP es en la siguiente linea
-<!--
-max_execution_time=1000
--->
+- max_execution_time=1000
+
